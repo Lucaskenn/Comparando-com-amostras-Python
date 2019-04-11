@@ -9,7 +9,7 @@ listadeamostras.append(ipt)
 
 #repetindo o processo até o usuário digitar "amostrar" 
 while ipt != "comparar":
-    ipt = input("Digite o peso das amostras:")
+    ipt = input("Digite o valor das amostras ou 'comparar':")
     listadeamostras.append(ipt)
 
 
